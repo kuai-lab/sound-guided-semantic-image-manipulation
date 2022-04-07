@@ -15,6 +15,7 @@ import torch.nn.functional as F
 
 import cv2
 
+sys.path.append("./")
 from criteria.soundclip_loss import SoundCLIPLoss
 from criteria.id_loss import IDLoss
 from models.stylegan2.model import Generator
@@ -31,6 +32,7 @@ def get_lr(t, initial_lr, rampdown=0.25, rampup=0.05):
 
 
 def main(args):
+    
     ensure_checkpoint_exists(args.ckpt)
 
     y, sr = librosa.load(args.audio_path, sr=44100)
