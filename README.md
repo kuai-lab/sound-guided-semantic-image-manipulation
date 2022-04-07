@@ -64,7 +64,7 @@ python3 optimization/run_optimization.py --lambda_similarity 0.002 --lambda_iden
 |  Ours (Without Self-Supervised) | -  | -  | 58.7%  | 63.3%  |
 |  :sparkles: Ours (Logistic Regression) |  - |  - |  72.2% |  66.8% |
 |  Wav2clip |  - |  :white_check_mark: |  41.4% | 40.4%  |
-| AudioCLIP  | :white_check_mark: | -  | 69.4%  | 68.8%  |
+| AudioCLIP  | - | :white_check_mark:  | 69.4%  | 68.8%  |
 | Ours (Without Self-Supervised)  |  - |  :white_check_mark: |  49.4% | 45.6%  |
 | :sparkles: Ours  |  - |  :white_check_mark: | 57.8%  | 45.7%  |
 
