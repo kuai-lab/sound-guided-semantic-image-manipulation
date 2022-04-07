@@ -55,7 +55,7 @@ The code relies on the StyleCLIP pytorch implementation.
 - [pretrained-audio encoder](https://kr.object.ncloudstorage.com/cvpr2022/resnet18_57.pth)
 
 ```
-python3 optimization/run_optimization.py --lambda_similarity 0.002 --lambda_identity 0.0 --truncation 0.7 --lr 0.1 --audio_path "./audiosample/explosion.wav" --save_source_image_path "./source_image" --save_manipulated_image_path "./manipulated_image" --ckpt ./pretrained_models/landscape.pt --stylegan_size 256"
+python3 optimization/run_optimization.py --lambda_similarity 0.002 --lambda_identity 0.0 --truncation 0.7 --lr 0.1 --audio_path "./audiosample/explosion.wav" --ckpt ./pretrained_models/landscape.pt --stylegan_size 256
 ```
 ## :golf: Results
 
