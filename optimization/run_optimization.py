@@ -78,8 +78,6 @@ def main(args):
         with torch.no_grad():
             img_orig, latent_code_init = g_ema([latent_code_init_not_trunc], return_latents=True,
                                         truncation=args.truncation, truncation_latent=mean_latent)
-        if args.save_latent_path:
-            torch.save(latent_code_init, args.save_latent_path)
 
     else:
         latent_code_init = mean_latent.detach().clone().repeat(1, 18, 1)
@@ -132,16 +130,12 @@ def main(args):
     if args.mode == "edit":
         with torch.no_grad():
             img_orig, _ = g_ema([latent_code_init], input_is_latent=True, randomize_noise=False)
-            if args.save_source_image_path:
-                torchvision.utils.save_image(img_orig.detach().cpu(), args.save_source_image_path, normalize=True, scale_each=True, range=(-1, 1))
-            if args.save_manipulated_image_path:
-                torchvision.utils.save_image(img_gen.detach().cpu(), args.save_manipulated_image_path, normalize=True, scale_each=True, range=(-1, 1))
+
         final_result = torch.cat([img_orig, img_gen])
     else:
         final_result = img_gen
 
-    if args.save_manipulated_latent_code_path:
-        torch.save(latent, args.save_mani_path)
+
     return final_result
 
 
