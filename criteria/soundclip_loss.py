@@ -38,7 +38,8 @@ class SoundCLIPLoss(torch.nn.Module):
         self.avg_pool = torch.nn.AvgPool2d(kernel_size=opts.stylegan_size // 32)
 
         self.audio_encoder = AudioEncoder()
-        self.audio_encoder.load_state_dict(copyStateDict(torch.load("../pretrained_models/resnet18.pth")))
+        
+        self.audio_encoder.load_state_dict(copyStateDict(torch.load("./pretrained_models/resnet18.pth")))
         
         self.audio_encoder = self.audio_encoder.cuda()
         self.audio_encoder.eval()
