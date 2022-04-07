@@ -76,3 +76,12 @@ python3 optimization/run_optimization.py --lambda_similarity 0.002 --lambda_iden
 
 **LSUN.**
 ![LSUN image](https://kr.object.ncloudstorage.com/cvpr2022/figure4_submission.png)
+
+```
+@article{lee2021sound,
+    title={Sound-Guided Semantic Image Manipulation},
+    author={Lee, Seung Hyun and Roh, Wonseok and Byeon, Wonmin and Yoon, Sang Ho and Kim, Chan Young and Kim, Jinkyu and Kim, Sangpil},
+    journal={arXiv preprint arXiv:2112.00007},
+    year={2021}
+}
+```
