@@ -1,10 +1,11 @@
-##  :sound: Sound-guided Semantic Image Manipulation
+##  :sound: Sound-guided Semantic Image Manipulation (CVPR2022)
 Official Pytorch Implementation
 
 ![Teaser image](https://kr.object.ncloudstorage.com/cvpr2022/overview.png)
 
 
 **Sound-guided Semantic Image Manipulation**<br>
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022
 
 Paper : https://arxiv.org/abs/2112.00007 <br>
 Project Page: https://kuai-lab.github.io/cvpr2022sound/ <br>
@@ -75,8 +76,14 @@ python3 optimization/run_optimization.py --lambda_similarity 0.002 --lambda_iden
 ### Manipulation Results.
 
 **LSUN.**
-![LSUN image](https://kr.object.ncloudstorage.com/cvpr2022/figure4_submission.png)
+![LSUN image](https://kr.object.ncloudstorage.com/cvpr2022/figure4_submission.png)  
 
+**FFHQ.**
+![FFHQ image](https://kr.object.ncloudstorage.com/cvpr2022/figure5_submission.png)
+
+To see more diverse examples, please visit our [project page](https://kuai-lab.github.io/cvpr2022sound/)!  
+
+## Citation
 ```
 @article{lee2021sound,
     title={Sound-Guided Semantic Image Manipulation},
