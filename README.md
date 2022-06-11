@@ -7,7 +7,7 @@ Official Pytorch Implementation
 **Sound-guided Semantic Image Manipulation**<br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) 2022
 
-Paper : https://arxiv.org/abs/2112.00007 <br>
+Paper : [CVPR 2022 Open Access](https://openaccess.thecvf.com/content/CVPR2022/papers/Lee_Sound-Guided_Semantic_Image_Manipulation_CVPR_2022_paper.pdf) <br>
 Project Page: https://kuai-lab.github.io/cvpr2022sound/ <br>
 Seung Hyun Lee, Wonseok Roh, Wonmin Byeon, Sang Ho Yoon, Chanyoung Kim, Jinkyu Kim*, and Sangpil Kim* <br>
 
