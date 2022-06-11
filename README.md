@@ -85,10 +85,12 @@ To see more diverse examples, please visit our [project page](https://kuai-lab.g
 
 ## Citation
 ```
-@article{lee2021sound,
-    title={Sound-Guided Semantic Image Manipulation},
-    author={Lee, Seung Hyun and Roh, Wonseok and Byeon, Wonmin and Yoon, Sang Ho and Kim, Chan Young and Kim, Jinkyu and Kim, Sangpil},
-    journal={arXiv preprint arXiv:2112.00007},
-    year={2021}
+@InProceedings{Lee_2022_CVPR,
+    author    = {Lee, Seung Hyun and Roh, Wonseok and Byeon, Wonmin and Yoon, Sang Ho and Kim, Chanyoung and Kim, Jinkyu and Kim, Sangpil},
+    title     = {Sound-Guided Semantic Image Manipulation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2022},
+    pages     = {3377-3386}
 }
 ```
