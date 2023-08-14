@@ -2,8 +2,7 @@ import pandas as pd
 import os
 from tqdm import tqdm
 from glob import glob
-import youtube_dl
-
+import yt_dlp as youtube_dl  # Import yt_dlp
 import os
 import librosa
 from pydub import AudioSegment
@@ -35,6 +34,7 @@ cnt = 0
 
 os.makedirs("./vggsound", exist_ok=True)
 
+# Use yt_dlp instead of youtube_dl
 for idx, row in tqdm(enumerate(vgg.iterrows())):
     try:
         _, row = row 
